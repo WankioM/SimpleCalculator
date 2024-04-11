@@ -1,6 +1,11 @@
 #include <iostream>;
 #include <chrono>;
 #include <thread>;
+#include <string>;
+
+using namespace std;
+
+
 
 
 int add(int num1, int num2){
@@ -54,9 +59,10 @@ int main() {
         int result=0;
     }
 
-    
-
     std:: cout << "The result of adding the two is: " << result <<std::endl;
-    std::this_thread::sleep_for(std::chrono::milliseconds(3000));
+ 
+
+    
+    std::this_thread::sleep_for(std::chrono::milliseconds(8000));
     return 0;
 }
