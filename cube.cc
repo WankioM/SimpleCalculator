@@ -48,18 +48,34 @@ class Cube{
 
 
 int main(){
-    
+    string mat1;
+    double len1;
+    double wid1;
+    double hei1;
+    string exit;
     // Creating a cube object
     Cube myCube("Wood", 5.0, 5.0, 5.0);
 
     // Displaying the properties of the cube
     myCube.displayProperties();
 
+
+    //Entering new data
+    cout << "Enter cube material" << endl;
+    cin >> mat1;
+
     // Changing the material of the cube
-    myCube.setMaterial("Metal");
+    myCube.setMaterial(mat1);
+
+    cout << "Enter length: " << endl;
+    cin >> len1 ;
+    cout << "Enter width: " << endl;
+    cin >> wid1 ;
+    cout << "Enter height " << endl;
+    cin >> hei1;
 
     // Changing the dimensions of the cube
-    myCube.setDimensions(10.0, 13.0, 14.0);
+    myCube.setDimensions(len1, wid1, hei1);
 
     // Displaying the updated properties of the cube
     myCube.displayProperties();
@@ -67,9 +83,12 @@ int main(){
     //Calculate Vloume
     myCube.calculateVolume();
 
+    cout << "Enter any key to exit " << endl;
+    cin >> exit;
+
 
     
 
     
-    std::this_thread::sleep_for(std::chrono::milliseconds(8000));
+    std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 }
