@@ -42,7 +42,7 @@ class Cube{
             cout << "Length: " << length << " units" << endl;
             cout << "Width: " << width << " units" << endl;
             cout << "Height: " << height << " units" << endl;
-            cout << "Volume: " << calculateVolume() << " cubic units" << endl;
+            cout << "Volume: " << calculateVolume() << " m3" << endl;
         }
 };
 
