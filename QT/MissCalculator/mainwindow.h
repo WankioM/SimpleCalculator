@@ -20,6 +20,12 @@ public:
 private slots:
     void on_addButton_clicked();
 
+    void on_pushButton_4_clicked();
+
+    void on_multiplyButton_3_clicked();
+
+    void on_divideButton_2_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
