@@ -44,7 +44,7 @@
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="secondnum">
     <property name="geometry">
      <rect>
       <x>440</x>
