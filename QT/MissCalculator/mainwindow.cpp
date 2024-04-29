@@ -12,3 +12,12 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+int firstNum, secondNum, result;
+
+void MainWindow::on_addButton_clicked()
+{
+    firstNum =ui->txtfirstnum->text().toInt();
+    secondNum =ui->txtsecondnum->text().toInt();
+}
+
